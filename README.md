@@ -3,12 +3,14 @@
 
 Input:
 ```
-prefixSpan(alpha="",dataset=[
+db = [
 [["a"], ["a", "b", "c"], ["a", "c"], ["c"]],
 [["a"], ["c"], ["b", "c"]],
 [["a", "b"], ["d"], ["c"], ["b"], ["c"]],
 [["a"], ["c"], ["b"], ["c"]]
-],min_sup=2)
+]
+
+prefixSpan(alpha="",dataset=db,min_sup=2)
 
 ```
 Output: 
